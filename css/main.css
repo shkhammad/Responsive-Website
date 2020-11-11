@@ -124,13 +124,12 @@ header a:hover{
 /*Boxes*/
 #boxes{
 	margin-top: 20px;
-	/*margin-left: 20px;*/
 }
 
 #boxes .box{
 	float: left;
 	width: 30%;
-	padding: 17px;
+	padding: 15px;
 	text-align: center;
 }
 
@@ -208,11 +207,17 @@ footer{
 }
 
 @media(max-width: 768px){
-	#branding, header nav, header li, #newsletter h1, #newsletter form, #boxes .box, #main-col, #sidebar{
+	#branding, header nav, header li, #newsletter h1, #newsletter form, #main-col, #sidebar{
 		float: none;
 		text-align: center;
 		width: 100%;
 	}	
+
+	#boxes .box{
+		float: none;
+		text-align: center;
+		width: 91%;
+	}
 
 	header{
 		padding-bottom: 15px;
